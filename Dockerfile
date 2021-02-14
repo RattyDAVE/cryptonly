@@ -4,7 +4,7 @@ RUN cd /opt && \
 
 WORKDIR /opt/cryptonly
 
-RUN npm install && npm run build
+RUN npm install && npm run build && npm run lint
 
 CMD ["npm", "run", "dev" ]
     
