@@ -6,7 +6,7 @@ WORKDIR /opt/cryptonly
 
 RUN npm install && npm run build
 
-CMD ["npm", "run", "start" ]
+CMD ["npm", "run", "dev" ]
     
 #Http Interface
-EXPOSE 3000
+EXPOSE 8080
